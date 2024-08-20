@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Lesson9</title>
+    <title>Lesson10</title>
   </head>
   <body>
     <header class="header">
       <div class="header__left">
-        <a href="#"><img src="./img/icons/Логотип розовый.png" alt="Logo.png" /></a>
+        <a href="#"><img src="./img/icons/Logo.png" alt="Logo.png" /></a>
         <button class="button_Top"><img src="./img/icons/Поиск.png" alt="" /></button>
       </div>
       <div class="header__right">
-        <button class="button_Top"><img src="./img/icons/Три полосы.png" alt="Три полосы" /></button>
-        <button class="button_Top button_Top_Hidden"><img src="./img/icons/Человечек.png" alt="Человечек" /></button>
-        <button class="button_Top button_Top_Hidden"><img src="./img/icons/Корзина.png" alt="Корзина" /></button>
+        <button class="burger"><img src="./img/icons/Burger.png" alt="Три полосы" /></button>
+
+        <button class="button_Top button_Top_Hidden"><img src="./img/icons/Human.png" alt="Human" /></button>
+        <button class="button_Top button_Top_Hidden"><img src="./img/icons/Basket.png" alt="Basket" /></button>
         <div class="header_ProductQuantity"><span>5</span></div>
       </div>
     </header>
@@ -24,6 +25,33 @@
       <div class="section1_Right">
         <h1>THE BRAND</h1>
         <h2>OF LUXERIOUS <span class="colorText">FASHION</span></h2>
+      </div>
+      <div class="menu-active hidden">
+        <h1>MENU</h1>
+        <div class="card_menu-active">
+          <h2>MAN</h2>
+          <h3>Accessories</h3>
+          <h3>Bags</h3>
+          <h3>Denim</h3>
+          <h3>T-Shirts</h3>
+        </div>
+        <div class="card_menu-active">
+          <h2>WOMAN</h2>
+          <h3>Accessories</h3>
+          <h3>Jackets &amp;&nbsp;Coats</h3>
+          <h3>Polos</h3>
+          <h3>T-Shirts</h3>
+          <h3>Shirts</h3>
+        </div>
+        <div class="card_menu-active">
+          <h2>KIDS</h2>
+          <h3>Accessories</h3>
+          <h3>Jackets &amp;&nbsp;Coats</h3>
+          <h3>Polos</h3>
+          <h3>T-Shirts</h3>
+          <h3>Shirts</h3>
+          <h3>Bags</h3>
+        </div>
       </div>
     </main>
     <div class="section2">
@@ -72,9 +100,9 @@
           <div class="card2_img_hover">
             <img src="./img/card2/Foto1.jpg" alt="Foto1" />
             <div class="card2_img_overlay">
-              <a href="#"
-                ><button class="button_overlay"><span>Add to Cart</span></button>
-              </a>
+              <form action="#">
+                <button class="button_overlay"><span>Add to Cart</span></button>
+              </form>
             </div>
           </div>
 
@@ -89,9 +117,9 @@
           <div class="card2_img_hover">
             <img src="./img/card2/Foto2.png" alt="Foto2" />
             <div class="card2_img_overlay">
-              <a href="#"
-                ><button class="button_overlay"><span>Add to Cart</span></button>
-              </a>
+              <form action="#">
+                <button class="button_overlay"><span>Add to Cart</span></button>
+              </form>
             </div>
             <h1>ELLERY X M'O CAPSULE</h1>
             <h2>
@@ -105,9 +133,9 @@
           <div class="card2_img_hover">
             <img src="./img/card2/Foto3.png" alt="Foto2" />
             <div class="card2_img_overlay">
-              <a href="#"
-                ><button class="button_overlay"><span>Add to Cart</span></button>
-              </a>
+              <form action="#">
+                <button class="button_overlay"><span>Add to Cart</span></button>
+              </form>
             </div>
             <h1>ELLERY X M'O CAPSULE</h1>
             <h2>
@@ -121,9 +149,9 @@
           <div class="card2_img_hover">
             <img src="./img/card2/Foto4.png" alt="Foto2" />
             <div class="card2_img_overlay">
-              <a href="#"
-                ><button class="button_overlay"><span>Add to Cart</span></button>
-              </a>
+              <form action="#">
+                <button class="button_overlay"><span>Add to Cart</span></button>
+              </form>
             </div>
             <h1>ELLERY X M'O CAPSULE</h1>
             <h2>
@@ -137,9 +165,9 @@
           <div class="card2_img_hover">
             <img src="./img/card2/Foto5.png" alt="Foto2" />
             <div class="card2_img_overlay">
-              <a href="#"
-                ><button class="button_overlay"><span>Add to Cart</span></button>
-              </a>
+              <form action="#">
+                <button class="button_overlay"><span>Add to Cart</span></button>
+              </form>
             </div>
             <h1>ELLERY X M'O CAPSULE</h1>
             <h2>
@@ -153,9 +181,9 @@
           <div class="card2_img_hover">
             <img src="./img/card2/Foto6.png" alt="Foto2" />
             <div class="card2_img_overlay">
-              <a href="#"
-                ><button class="button_overlay"><span>Add to Cart</span></button>
-              </a>
+              <form action="#">
+                <button class="button_overlay"><span>Add to Cart</span></button>
+              </form>
             </div>
             <h1>ELLERY X M'O CAPSULE</h1>
             <h2>
@@ -177,7 +205,7 @@
         </div>
         <div class="card3">
           <img src="./img/секция3/interest.svg" alt="interest" />
-          <h1>Sales & discounts</h1>
+          <h1>Sales &amp;&nbsp;discounts</h1>
           <h2>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h2>
         </div>
         <div class="card3">
@@ -255,5 +283,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
