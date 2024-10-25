@@ -266,6 +266,7 @@ body {
 }
 .card2 {
   background-color: #f8f8f8;
+  text-align:left;
 }
 .card2 img {
   max-width: 360px;
